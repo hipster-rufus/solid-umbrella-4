@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <!--Links CSS file-->
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Coding Quiz</title>
 </head>
 <body>
@@ -19,7 +19,10 @@
     </header>
 
     <div class="start-display">
-        <button class="start-btn"></button>
+        <button class="start-btn">Start Quiz</button>
+        <div class="scores-display">
+            <button class="scores-btn">View Scores</button>
+        </div>
     </div>
 
     <div class="quiz-display">
@@ -32,17 +35,11 @@
     </div>
 
     <div class="finish-display">
-        <form class="score-input">
-            <input type="text" class="player-name">
-            <button type="submit" class="submit"></button>
-        </form>
+        <form class="score-input"></form>
     </div>
 
-    <div class="scores-display">
-        <section class="player-scores">
-            <h2>Player Scores</h2>
-        </section>
-        <button id="go-back"></button>
-    </div>
+    <footer>
+        <p>Created in 2023</p>
+    </footer>
 </body>
 </html>
